@@ -1,0 +1,17 @@
+{
+  "name": "evm-order-router",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EVM order routing with venue selection, gas ceiling, and revert-safe simulation.",
+  "type": "module",
+  "scripts": {
+    "check": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsx src/index.ts",
+    "test": "tsx --test src/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
